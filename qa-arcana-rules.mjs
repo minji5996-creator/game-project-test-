@@ -1,0 +1,12 @@
+import assert from 'node:assert/strict';
+import {newPlayer,newBattle,performTurn,grantReward,normalizeSave,maxHP} from './src/arcana-rules.js';
+const p=newPlayer(),enemy=newBattle('moss'),strong=performTurn(p,enemy,'fire'),weak=performTurn(p,enemy,'water');assert(strong.battle.hp<weak.battle.hp,'Element advantage must matter');assert.equal(p.mp,42,'Inputs must stay immutable');
+const empty=performTurn({...p,mp:0},enemy,'fire');assert(empty.invalid);assert.equal(empty.player.hp,p.hp);assert.equal(empty.battle.turn,1);
+const guarded=performTurn({...p,mp:0},{...enemy,turn:3},'guard'),open=performTurn(p,{...enemy,turn:3},'strike');assert(guarded.player.hp>open.player.hp);assert.equal(guarded.player.mp,12);
+const exhausted=performTurn({...p,potions:0},enemy,'potion');assert(exhausted.invalid);const heal=performTurn({...p,hp:20},enemy,'potion');assert.equal(heal.player.potions,2);assert(heal.player.hp>20);
+assert(performTurn(p,enemy,'bond').invalid);const bond=performTurn(p,{...enemy,bond:3},'bond');assert.equal(bond.battle.bond,0);assert(bond.battle.hp<enemy.hp-40);
+const win=performTurn(p,{...enemy,hp:1},'strike');assert.equal(win.battle.status,'won');assert.equal(win.player.hp,p.hp,'A defeated enemy must not retaliate');assert(performTurn(p,win.battle,'strike').invalid);
+const lose=performTurn({...p,hp:1},newBattle('astral'),'strike');assert.equal(lose.battle.status,'lost');assert.equal(lose.player.hp,0);
+const reward=grantReward({...p,xp:40},'moss');assert.equal(reward.levels,1);assert.equal(reward.player.level,2);assert.equal(reward.player.hp,maxHP(reward.player));
+assert.equal(normalizeSave({}),null);const normalized=normalizeSave({version:1,stage:2,player:{name:'<img>',level:999,hp:-50,element:'bad'},defeated:3,collected:'bad'});assert.equal(normalized.player.level,20);assert.equal(normalized.player.hp,1);assert.deepEqual(normalized.defeated,[]);
+console.log('PASS: elemental affinity, mana, defence, healing, bond, win/loss, level rewards, immutable turns and save validation.');

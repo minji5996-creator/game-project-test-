@@ -1,0 +1,97 @@
+{
+  "creation-window": {
+    "passed": true,
+    "layout": {
+      "ratio": 1.7777777777777777,
+      "inside": true,
+      "left": true,
+      "outerScroll": 0,
+      "previewX": 369.655528125,
+      "previewY": 503.85125,
+      "shell": {
+        "x": 30,
+        "y": 111.875,
+        "width": 1380,
+        "height": 776.25,
+        "top": 111.875,
+        "right": 1410,
+        "bottom": 888.125,
+        "left": 30
+      }
+    },
+    "settingsScroll": true,
+    "allChoicesPreserved": true,
+    "characterCreation": true,
+    "portraitAndLandscape": true,
+    "offline": true,
+    "errors": []
+  },
+  "skin": {
+    "passed": true,
+    "skinTones": 12,
+    "genders": 2,
+    "distinctPreviews": 24,
+    "combinations": 1200,
+    "motion": true,
+    "fieldBattleAndCodex": true,
+    "saveResume": true,
+    "oldSaveMigration": true,
+    "mobile": true,
+    "offline": true,
+    "errors": []
+  },
+  "blink": {
+    "passed": true,
+    "reports": [
+      {
+        "gender": "female",
+        "reviewed_frames": 44,
+        "blink_states": 3,
+        "closed_iris_protection": 0,
+        "tone_previews": 12,
+        "dark_blink_pale_pixels": 0
+      },
+      {
+        "gender": "male",
+        "reviewed_frames": 44,
+        "blink_states": 3,
+        "closed_iris_protection": 0,
+        "tone_previews": 12,
+        "dark_blink_pale_pixels": 0
+      }
+    ]
+  },
+  "side-materials": {
+    "passed": true,
+    "exports": 48,
+    "reports": [
+      {
+        "gender": "female",
+        "side_motion_frames": 24,
+        "protected_skin_pixels": 139192,
+        "missing_alpha": 0,
+        "skin_in_hair_or_clothing": 0
+      },
+      {
+        "gender": "male",
+        "side_motion_frames": 24,
+        "protected_skin_pixels": 100882,
+        "missing_alpha": 0,
+        "skin_in_hair_or_clothing": 0
+      }
+    ]
+  },
+  "side-browser": {
+    "passed": true,
+    "snapshots": 48,
+    "actualSideWalk": true,
+    "actualLeftWalk": true,
+    "appearance": {
+      "gender": "female",
+      "hair": "black",
+      "outfit": "black",
+      "skin": "milk"
+    },
+    "errors": []
+  }
+}

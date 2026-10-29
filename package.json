@@ -1,0 +1,21 @@
+{
+  "name": "lumia-magic-academy",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Sprite Gen 기반 2D 마법학교 RPG",
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5173 --strictPort",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4173 --strictPort",
+    "build:offline": "node build-offline.mjs",
+    "test": "node qa-arcana-rules.mjs && node qa-monster-ai.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.12",
+    "vite": "7.3.7"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "layout": {
+    "ratio": 1.7777777777777777,
+    "inside": true,
+    "left": true,
+    "outerScroll": 0,
+    "previewX": 369.655528125,
+    "previewY": 503.85125,
+    "shell": {
+      "x": 30,
+      "y": 111.875,
+      "width": 1380,
+      "height": 776.25,
+      "top": 111.875,
+      "right": 1410,
+      "bottom": 888.125,
+      "left": 30
+    }
+  },
+  "settingsScroll": true,
+  "allChoicesPreserved": true,
+  "characterCreation": true,
+  "portraitAndLandscape": true,
+  "offline": true,
+  "errors": []
+}
