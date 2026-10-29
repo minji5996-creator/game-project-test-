@@ -12,7 +12,7 @@
     "build": "vite build",
     "preview": "vite preview --host 127.0.0.1 --port 4173 --strictPort",
     "build:offline": "node build-offline.mjs",
-    "test": "node qa-arcana-rules.mjs && node qa-monster-ai.mjs",
+    "test": "node qa-arcana-rules.mjs && node qa-monster-ai.mjs && node qa-asset-build.mjs",
     "optimize:assets": "python scripts/optimize-assets.py"
   },
   "devDependencies": {

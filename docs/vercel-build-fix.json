@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-29",
+  "issue": "Source hash used Windows CRLF bytes while Git and Vercel checked out LF JSON.",
+  "fix": "Canonicalize JSON newlines in both asset generation and build validation; retain exact binary hashes.",
+  "checks": {
+    "windowsWorkingCopyBuild": true,
+    "gitArchiveManifestHasZeroCRLF": true,
+    "freshGitArchiveNpmCi": true,
+    "freshGitArchiveNpmTest": true,
+    "freshGitArchiveProductionBuild": true,
+    "realJsonEditsRejected": true,
+    "binaryHashesRemainExact": true
+  },
+  "scope": "Local Node 24 checks using Git-stored LF files. Vercel redeployment must still run on the service."
+}

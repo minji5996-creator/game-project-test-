@@ -868,11 +868,11 @@
     "outputBytes": 815684
   },
   "/arcana2d/hero-manifest.json": {
-    "file": "assets/game/arcana2d-hero-manifest.d6baae5e4ffa7753.json",
+    "file": "assets/game/arcana2d-hero-manifest.1976929a63dd045f.json",
     "source": "public/arcana2d/hero-manifest.json",
-    "sourceHash": "d6baae5e4ffa7753572d3d6a4adb613e7b8baa425ce34201fb4b43916c1d7138",
-    "inputBytes": 9285,
-    "outputBytes": 9285
+    "sourceHash": "1976929a63dd045fa1532099ccb5949b3b70c994a65bef9bf8bf9773eec1f300",
+    "inputBytes": 8797,
+    "outputBytes": 8797
   },
   "/arcana2d/librarian.png": {
     "file": "assets/game/arcana2d-librarian.3b745c4a99d1cd41.webp",

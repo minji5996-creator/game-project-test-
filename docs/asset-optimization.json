@@ -1,8 +1,8 @@
 {
   "logicalAssets": 141,
   "losslessImagesVerified": 138,
-  "sourceBytes": 49658747,
-  "optimizedBytes": 28097884,
+  "sourceBytes": 49658259,
+  "optimizedBytes": 28097396,
   "reductionPercent": 43.4,
   "validation": "Exact decoded alpha; identical visible RGB. No resizing of motion frames."
 }

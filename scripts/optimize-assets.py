@@ -14,7 +14,9 @@ registry_path.write_text('export const appearanceAssets='+json.dumps(registry,se
 entries={};before=after=0;verified=0
 for src in sorted(public.rglob('*')):
     if not src.is_file() or target in src.parents or src.suffix not in {'.png','.json'}:continue
-    logical='/'+src.relative_to(public).as_posix();data=src.read_bytes();source_hash=hashlib.sha256(data).hexdigest()
+    logical='/'+src.relative_to(public).as_posix();data=src.read_bytes()
+    if src.suffix=='.json':data=data.replace(b'\r\n',b'\n')
+    source_hash=hashlib.sha256(data).hexdigest()
     if src.suffix=='.png':
         image=Image.open(src).convert('RGBA');temp=target/'encoding.tmp.webp';image.save(temp,format='WEBP',lossless=True,quality=100,method=4,exact=True)
         decoded=Image.open(temp).convert('RGBA')
