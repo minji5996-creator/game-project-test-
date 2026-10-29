@@ -3,7 +3,7 @@ import fs from 'node:fs';
 import {appearanceAssets} from './src/appearance-assets.js';
 const result=await build({entryPoints:['src/arcana2d.js'],bundle:true,format:'iife',minify:true,write:false,loader:{'.css':'empty'}});
 let js=result.outputFiles[0].text;
-const appearancePaths=Object.values(appearanceAssets).flatMap(a=>[a.body,a.manifest,...Object.values(a.hair),...Object.values(a.outfit),...Object.values(a.skin)]);
+const appearancePaths=Object.values(appearanceAssets).flatMap(a=>[a.body,a.manifest,...Object.values(a.hair),...Object.values(a.outfit),...Object.values(a.skin),a.thumbs.body,...Object.values(a.thumbs.hair),...Object.values(a.thumbs.outfit),...Object.values(a.thumbs.skin)]);
 const paths=['/arcana2d/creation/forest-stage.png',...appearancePaths,...['jelly','stump','mushroom'].flatMap(type=>['idle','ready','attack'].map(pose=>`/arcana2d/monsters/${type}-${pose}.png`)),...['mentor','librarian','herbalist','shop'].map(id=>`/arcana2d/portraits/${id}.png`),'/arcana2d/hero-atlas.png','/arcana2d/hero-manifest.json','/arcana2d/hero-base.png','/arcana2d/campus.png',...['mentor','librarian','herbalist','shop'].map(id=>`/arcana2d/${id}.png`),...['moss','tide','ember','astral'].map(id=>`/arcana/${id}.png`)];
 for(const path of paths){const mime=path.endsWith('.json')?'application/json':'image/png';js=js.replaceAll(path,`data:${mime};base64,${fs.readFileSync('public'+path).toString('base64')}`);}
 js=js.replaceAll('href="arcana.html"','href="Lumia-Magic-Academy-2D.html"').replaceAll('href="index.html"','href="Lumia-Magic-Academy-2D.html"');

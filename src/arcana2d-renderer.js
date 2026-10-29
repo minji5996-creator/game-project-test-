@@ -9,7 +9,7 @@ export class Point{
 }
 export const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
 export const marker=()=>({visible:false,position:new Point(),scale:{setScalar(){}}});
-export async function loadImage(url){const image=new Image();image.src=url;await image.decode();return image;}
+export async function loadImage(url){const image=new Image();image.decoding='async';image.src=url;await image.decode();return image;}
 export class AtlasPlayer{
  constructor(image,manifest){this.image=image;this.manifest=manifest;this.state='down_idle';this.frame=0;this.time=0;this.once=false;this.returnState='side_idle';}
  set(state,once=false){if(!this.manifest.frame_layout.rows[state])throw Error('Missing Sprite Gen animation '+state);if(this.state===state&&!once)return;this.state=state;this.frame=0;this.time=0;this.once=once;}

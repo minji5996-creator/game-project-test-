@@ -9,3 +9,7 @@ dist/
 .DS_Store
 Thumbs.db
 Lumia-Magic-Academy-2D.html
+.vercel/
+output/
+__pycache__/
+*.pyc

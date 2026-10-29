@@ -1,0 +1,989 @@
+{
+  "/arcana/academy.png": {
+    "file": "assets/game/arcana-academy.f19c57f560d88181.webp",
+    "source": "public/arcana/academy.png",
+    "sourceHash": "0e8d2f370ec7c62060ba348be3a81be1e98492fb035d34cce3a4ecd2d5fceded",
+    "inputBytes": 3006045,
+    "outputBytes": 2235920
+  },
+  "/arcana/astral.png": {
+    "file": "assets/game/arcana-astral.ce936060926a3f24.webp",
+    "source": "public/arcana/astral.png",
+    "sourceHash": "cc92755915350898376a536f9d9002353f5725635c1bcdc7fc8589b4ca455df6",
+    "inputBytes": 282397,
+    "outputBytes": 210548
+  },
+  "/arcana/ember.png": {
+    "file": "assets/game/arcana-ember.28cedbf2839a9b27.webp",
+    "source": "public/arcana/ember.png",
+    "sourceHash": "aa00799f099a9b6ee932fee5b19c6fadf1d0e6aef15426748f7cbe9fb053cf8f",
+    "inputBytes": 229408,
+    "outputBytes": 169360
+  },
+  "/arcana/moss.png": {
+    "file": "assets/game/arcana-moss.80a9c7f4184fc34d.webp",
+    "source": "public/arcana/moss.png",
+    "sourceHash": "bf00fbf1570ac2cadc6ba5ed41664cc780550942211f3b5e29c0c9b81bb4eabd",
+    "inputBytes": 261794,
+    "outputBytes": 188634
+  },
+  "/arcana/tide.png": {
+    "file": "assets/game/arcana-tide.d65b51a922a2932d.webp",
+    "source": "public/arcana/tide.png",
+    "sourceHash": "d9f96b016fd2ea3b588231880806604f80001622abe3f0c37a2108ff17b074a6",
+    "inputBytes": 258279,
+    "outputBytes": 197510
+  },
+  "/arcana2d/campus.png": {
+    "file": "assets/game/arcana2d-campus.d14501670efcde08.webp",
+    "source": "public/arcana2d/campus.png",
+    "sourceHash": "39970141f20061174b0ace972a95b551542a26f6ddc00f1aeba856726fd91f02",
+    "inputBytes": 4073800,
+    "outputBytes": 2936922
+  },
+  "/arcana2d/creation/female/body.png": {
+    "file": "assets/game/arcana2d-creation-female-body.6ab5164c0f0cceda.webp",
+    "source": "public/arcana2d/creation/female/body.png",
+    "sourceHash": "062277cbbf3abc0fd1e06f264083ce0bb319dbe0ceef314dd76a6e23c555b5a5",
+    "inputBytes": 686930,
+    "outputBytes": 450328
+  },
+  "/arcana2d/creation/female/hair/black.png": {
+    "file": "assets/game/arcana2d-creation-female-hair-black.be175be47f224212.webp",
+    "source": "public/arcana2d/creation/female/hair/black.png",
+    "sourceHash": "d537edb02d3d45b30a4b2b75d8b704be01d73a21c430655b9aef6bb649f081bf",
+    "inputBytes": 630382,
+    "outputBytes": 266284
+  },
+  "/arcana2d/creation/female/hair/blonde.png": {
+    "file": "assets/game/arcana2d-creation-female-hair-blonde.164fe17ae4566198.webp",
+    "source": "public/arcana2d/creation/female/hair/blonde.png",
+    "sourceHash": "55321624f199758b1488f7f1e2926a62cf8fb9aeb448d5a3314ee1dde65e6745",
+    "inputBytes": 643584,
+    "outputBytes": 268686
+  },
+  "/arcana2d/creation/female/hair/blue.png": {
+    "file": "assets/game/arcana2d-creation-female-hair-blue.9238a52ff41345d3.webp",
+    "source": "public/arcana2d/creation/female/hair/blue.png",
+    "sourceHash": "4958136d0279bb3501658da0c6a24ba33073adb1396505277303ae1f41b94d2a",
+    "inputBytes": 650571,
+    "outputBytes": 268432
+  },
+  "/arcana2d/creation/female/hair/brown.png": {
+    "file": "assets/game/arcana2d-creation-female-hair-brown.146a1c03d2063c33.webp",
+    "source": "public/arcana2d/creation/female/hair/brown.png",
+    "sourceHash": "35746278cdf4ef96950463628c55b4261df550217be7f5afbfd91499d4792245",
+    "inputBytes": 659084,
+    "outputBytes": 269464
+  },
+  "/arcana2d/creation/female/hair/orange.png": {
+    "file": "assets/game/arcana2d-creation-female-hair-orange.affcb003c3f38b91.webp",
+    "source": "public/arcana2d/creation/female/hair/orange.png",
+    "sourceHash": "bf77af9473395397a55a236d5037d63c192ffd47cdd764e1ca6b5b64298858d5",
+    "inputBytes": 652518,
+    "outputBytes": 270596
+  },
+  "/arcana2d/creation/female/hair/pink.png": {
+    "file": "assets/game/arcana2d-creation-female-hair-pink.3c84a8da8eff59a3.webp",
+    "source": "public/arcana2d/creation/female/hair/pink.png",
+    "sourceHash": "95a6c1a874b1d370a601e9aff0e5a86b6bf3b69d33a6736200884022f0d48cf4",
+    "inputBytes": 680322,
+    "outputBytes": 268310
+  },
+  "/arcana2d/creation/female/hair/purple.png": {
+    "file": "assets/game/arcana2d-creation-female-hair-purple.c05337a2273dd004.webp",
+    "source": "public/arcana2d/creation/female/hair/purple.png",
+    "sourceHash": "73ea5333bfc26f3e4cde4227844200bffbf26d81f29c64a22eea3ba62454f361",
+    "inputBytes": 661838,
+    "outputBytes": 268342
+  },
+  "/arcana2d/creation/female/hair/red.png": {
+    "file": "assets/game/arcana2d-creation-female-hair-red.fda40f1d7de54eb7.webp",
+    "source": "public/arcana2d/creation/female/hair/red.png",
+    "sourceHash": "5b06f6a870f7d6054e104847913fa0ef74fa38d10602a6b0aa868703c3c6ccfe",
+    "inputBytes": 668438,
+    "outputBytes": 266340
+  },
+  "/arcana2d/creation/female/hair/silver.png": {
+    "file": "assets/game/arcana2d-creation-female-hair-silver.7e999e26d4cd1bec.webp",
+    "source": "public/arcana2d/creation/female/hair/silver.png",
+    "sourceHash": "ef597b9942d6b9861ce77f589b9c0b1a501584e9c18b0f4f030fabafa0eb94a5",
+    "inputBytes": 668502,
+    "outputBytes": 268768
+  },
+  "/arcana2d/creation/female/hair/white.png": {
+    "file": "assets/game/arcana2d-creation-female-hair-white.0e30af8ee5697a93.webp",
+    "source": "public/arcana2d/creation/female/hair/white.png",
+    "sourceHash": "df81ed9673708e371d9dc805b04ba66ccbb8f2bc4170a49858db5a1a367c2a5d",
+    "inputBytes": 637401,
+    "outputBytes": 256506
+  },
+  "/arcana2d/creation/female/manifest.json": {
+    "file": "assets/game/arcana2d-creation-female-manifest.f93f1556f2ea6f74.json",
+    "source": "public/arcana2d/creation/female/manifest.json",
+    "sourceHash": "f93f1556f2ea6f741cadd14f5e2213096167c0684cf6a8e0da30bbde18a42e4d",
+    "inputBytes": 4612,
+    "outputBytes": 4612
+  },
+  "/arcana2d/creation/female/outfit/black.png": {
+    "file": "assets/game/arcana2d-creation-female-outfit-black.0e03566a76851aa0.webp",
+    "source": "public/arcana2d/creation/female/outfit/black.png",
+    "sourceHash": "e509ca6656e40c76272d4029154e94dcbaaadbf17f2f442e02a75e43935f0f98",
+    "inputBytes": 178841,
+    "outputBytes": 63740
+  },
+  "/arcana2d/creation/female/outfit/green.png": {
+    "file": "assets/game/arcana2d-creation-female-outfit-green.b0760860c2fdf0ed.webp",
+    "source": "public/arcana2d/creation/female/outfit/green.png",
+    "sourceHash": "421ff821fcdc6ece19652cc62fa07e248f7aebe886072451d328f61da27916d7",
+    "inputBytes": 174416,
+    "outputBytes": 64656
+  },
+  "/arcana2d/creation/female/outfit/purple.png": {
+    "file": "assets/game/arcana2d-creation-female-outfit-purple.6cd383e9403bfd79.webp",
+    "source": "public/arcana2d/creation/female/outfit/purple.png",
+    "sourceHash": "663217c6d6412d59174ff56430c8c78db9f3b13bc8ae8b3b85eda24f7d4ff343",
+    "inputBytes": 173233,
+    "outputBytes": 64574
+  },
+  "/arcana2d/creation/female/outfit/red.png": {
+    "file": "assets/game/arcana2d-creation-female-outfit-red.50ac6a16fa23c630.webp",
+    "source": "public/arcana2d/creation/female/outfit/red.png",
+    "sourceHash": "a5459316c9704e222936b359485d2fd22c6edcf2e2a425a2240bcef9a7166776",
+    "inputBytes": 173766,
+    "outputBytes": 64194
+  },
+  "/arcana2d/creation/female/outfit/yellow.png": {
+    "file": "assets/game/arcana2d-creation-female-outfit-yellow.c86295410b188b12.webp",
+    "source": "public/arcana2d/creation/female/outfit/yellow.png",
+    "sourceHash": "3ca3dc4be598506fb158392d9dbda4b2d6bcf9b9c0eeba6b368b257a3185e641",
+    "inputBytes": 182333,
+    "outputBytes": 64906
+  },
+  "/arcana2d/creation/female/skin/beige.png": {
+    "file": "assets/game/arcana2d-creation-female-skin-beige.aaa51690fb3e2ec9.webp",
+    "source": "public/arcana2d/creation/female/skin/beige.png",
+    "sourceHash": "00958fc555f2dcb26bccf40a9d8a25db022173d792d293863876a3267d07b3fb",
+    "inputBytes": 403254,
+    "outputBytes": 149136
+  },
+  "/arcana2d/creation/female/skin/bronze.png": {
+    "file": "assets/game/arcana2d-creation-female-skin-bronze.99eb63e9f2591c28.webp",
+    "source": "public/arcana2d/creation/female/skin/bronze.png",
+    "sourceHash": "16b0e166971e8061d40ce1512756124d1b6310cb7ebc9516999f667d6dfd1cdf",
+    "inputBytes": 388560,
+    "outputBytes": 150182
+  },
+  "/arcana2d/creation/female/skin/cream.png": {
+    "file": "assets/game/arcana2d-creation-female-skin-cream.88dac96c8c854e4f.webp",
+    "source": "public/arcana2d/creation/female/skin/cream.png",
+    "sourceHash": "be1b962ea47e9ec5b5a31b4766d0a58034ec316b8944321b06c43a6f82b39ebe",
+    "inputBytes": 419933,
+    "outputBytes": 152140
+  },
+  "/arcana2d/creation/female/skin/ivory.png": {
+    "file": "assets/game/arcana2d-creation-female-skin-ivory.a8bc89982f01f5f3.webp",
+    "source": "public/arcana2d/creation/female/skin/ivory.png",
+    "sourceHash": "7e073c62875e9aa4260b8eb254b9ff3da67b93bfa01d19247ae0ae512320743e",
+    "inputBytes": 394379,
+    "outputBytes": 146528
+  },
+  "/arcana2d/creation/female/skin/lilac.png": {
+    "file": "assets/game/arcana2d-creation-female-skin-lilac.a0eb669e425a997a.webp",
+    "source": "public/arcana2d/creation/female/skin/lilac.png",
+    "sourceHash": "fbd1239cc053c459775a2a415a61c3c58cbff725f3666a30824c732607cd83cb",
+    "inputBytes": 387563,
+    "outputBytes": 147728
+  },
+  "/arcana2d/creation/female/skin/milk.png": {
+    "file": "assets/game/arcana2d-creation-female-skin-milk.06df4fa6b239905b.webp",
+    "source": "public/arcana2d/creation/female/skin/milk.png",
+    "sourceHash": "c6223a5b3b10bdfa67574ba93466e3df7bbe40c1e14587d66773836a4b857774",
+    "inputBytes": 398141,
+    "outputBytes": 146446
+  },
+  "/arcana2d/creation/female/skin/natural.png": {
+    "file": "assets/game/arcana2d-creation-female-skin-natural.7547cb52938bbd62.webp",
+    "source": "public/arcana2d/creation/female/skin/natural.png",
+    "sourceHash": "d44e5da973f07d4eec98016790ef1fe415307f3b84d216b8d9eb97587c610b55",
+    "inputBytes": 820052,
+    "outputBytes": 562592
+  },
+  "/arcana2d/creation/female/skin/pink.png": {
+    "file": "assets/game/arcana2d-creation-female-skin-pink.0a8091596036d860.webp",
+    "source": "public/arcana2d/creation/female/skin/pink.png",
+    "sourceHash": "56519d293d39e598192a1224c70478d08ce60a8978d6710cb08fd450c6994d09",
+    "inputBytes": 420460,
+    "outputBytes": 149570
+  },
+  "/arcana2d/creation/female/skin/porcelain.png": {
+    "file": "assets/game/arcana2d-creation-female-skin-porcelain.aeed86e728c34925.webp",
+    "source": "public/arcana2d/creation/female/skin/porcelain.png",
+    "sourceHash": "30619a9890f8852e3c3a56710c108aba6a19b7302bb36b34e8988bbb8617d3e4",
+    "inputBytes": 357871,
+    "outputBytes": 145104
+  },
+  "/arcana2d/creation/female/skin/rose.png": {
+    "file": "assets/game/arcana2d-creation-female-skin-rose.1b2777317a96dabf.webp",
+    "source": "public/arcana2d/creation/female/skin/rose.png",
+    "sourceHash": "0e6ce62fb5dc766859fcc5cd86cfcb0f429b653e95ad71d38b21be4395dbaea8",
+    "inputBytes": 396253,
+    "outputBytes": 147866
+  },
+  "/arcana2d/creation/female/skin/slate.png": {
+    "file": "assets/game/arcana2d-creation-female-skin-slate.9dedb9dd5947641b.webp",
+    "source": "public/arcana2d/creation/female/skin/slate.png",
+    "sourceHash": "9ac3fea0398b6d601cdda9db38e6fc3f78acd46aad86d33fe65ba157af5a6e97",
+    "inputBytes": 379236,
+    "outputBytes": 147828
+  },
+  "/arcana2d/creation/female/skin/tan.png": {
+    "file": "assets/game/arcana2d-creation-female-skin-tan.bd2918a356767b05.webp",
+    "source": "public/arcana2d/creation/female/skin/tan.png",
+    "sourceHash": "5e798a35619cc468960d8d555750925873d3afbc0dc04b46b4712a33b60d203d",
+    "inputBytes": 405943,
+    "outputBytes": 150002
+  },
+  "/arcana2d/creation/female/thumbs/body.png": {
+    "file": "assets/game/arcana2d-creation-female-thumbs-body.f32a402cd34d4c1d.webp",
+    "source": "public/arcana2d/creation/female/thumbs/body.png",
+    "sourceHash": "4af1e961ffa8a42b4af799c94ac3a9d25987c465592c8b9baabd02da05529eb1",
+    "inputBytes": 16288,
+    "outputBytes": 11788
+  },
+  "/arcana2d/creation/female/thumbs/hair/black.png": {
+    "file": "assets/game/arcana2d-creation-female-thumbs-hair-black.a018958abc77c75c.webp",
+    "source": "public/arcana2d/creation/female/thumbs/hair/black.png",
+    "sourceHash": "c9814de604c36d8b3c898ff5844f9f6cae601aff02cd829325d3412b635d5dc3",
+    "inputBytes": 15195,
+    "outputBytes": 6240
+  },
+  "/arcana2d/creation/female/thumbs/hair/blonde.png": {
+    "file": "assets/game/arcana2d-creation-female-thumbs-hair-blonde.b570265c67691d2a.webp",
+    "source": "public/arcana2d/creation/female/thumbs/hair/blonde.png",
+    "sourceHash": "e44e8d237cb6597823a890caf1a9a337b39623f0135c50f51bfab8dd6312ba1e",
+    "inputBytes": 15902,
+    "outputBytes": 6426
+  },
+  "/arcana2d/creation/female/thumbs/hair/blue.png": {
+    "file": "assets/game/arcana2d-creation-female-thumbs-hair-blue.ed865e8d84a5d54f.webp",
+    "source": "public/arcana2d/creation/female/thumbs/hair/blue.png",
+    "sourceHash": "9f33fa1b063f469c02813aeebc78c43be0db10da43a0d031a89e6c3c57c5785c",
+    "inputBytes": 16156,
+    "outputBytes": 6418
+  },
+  "/arcana2d/creation/female/thumbs/hair/brown.png": {
+    "file": "assets/game/arcana2d-creation-female-thumbs-hair-brown.3a62a9b53618c19a.webp",
+    "source": "public/arcana2d/creation/female/thumbs/hair/brown.png",
+    "sourceHash": "00c36d0d39627bc210962f656cbba834406a9dee5698d09e33ccda47f4606e15",
+    "inputBytes": 16361,
+    "outputBytes": 6472
+  },
+  "/arcana2d/creation/female/thumbs/hair/orange.png": {
+    "file": "assets/game/arcana2d-creation-female-thumbs-hair-orange.e5cfba7804c34681.webp",
+    "source": "public/arcana2d/creation/female/thumbs/hair/orange.png",
+    "sourceHash": "c5101235c0aead491f83d5b48720a3a2828cf67de49495737d140c1e2e3448cc",
+    "inputBytes": 15936,
+    "outputBytes": 6460
+  },
+  "/arcana2d/creation/female/thumbs/hair/pink.png": {
+    "file": "assets/game/arcana2d-creation-female-thumbs-hair-pink.9d0ad5fe73b88e1d.webp",
+    "source": "public/arcana2d/creation/female/thumbs/hair/pink.png",
+    "sourceHash": "b5d7da68098c454adf0d5df6361432757675f53da829f06454611d2e56207522",
+    "inputBytes": 17186,
+    "outputBytes": 6442
+  },
+  "/arcana2d/creation/female/thumbs/hair/purple.png": {
+    "file": "assets/game/arcana2d-creation-female-thumbs-hair-purple.a701bf399c8a02bd.webp",
+    "source": "public/arcana2d/creation/female/thumbs/hair/purple.png",
+    "sourceHash": "eaea49ba4296cc7fec12705a17013a031f8b4c34b84a98191d121a71c75ba732",
+    "inputBytes": 16721,
+    "outputBytes": 6422
+  },
+  "/arcana2d/creation/female/thumbs/hair/red.png": {
+    "file": "assets/game/arcana2d-creation-female-thumbs-hair-red.71b1a76e1de6db69.webp",
+    "source": "public/arcana2d/creation/female/thumbs/hair/red.png",
+    "sourceHash": "157abb6a6d48f4e8752bca1b5ddc529ac7c13cfe3c8fa02eb5711c975beab60e",
+    "inputBytes": 16596,
+    "outputBytes": 6292
+  },
+  "/arcana2d/creation/female/thumbs/hair/silver.png": {
+    "file": "assets/game/arcana2d-creation-female-thumbs-hair-silver.31378b83ce5be722.webp",
+    "source": "public/arcana2d/creation/female/thumbs/hair/silver.png",
+    "sourceHash": "711e8c4d4b741ba1c4f3ff19b8684bd368397f1c07fd10028704561c59879a23",
+    "inputBytes": 16631,
+    "outputBytes": 6378
+  },
+  "/arcana2d/creation/female/thumbs/hair/white.png": {
+    "file": "assets/game/arcana2d-creation-female-thumbs-hair-white.a02d168cd09c97a8.webp",
+    "source": "public/arcana2d/creation/female/thumbs/hair/white.png",
+    "sourceHash": "9d7971c0eee1d84e881e19d7f48b4ea952fee08ca9de1197e1a1b9586eb7642e",
+    "inputBytes": 15660,
+    "outputBytes": 6128
+  },
+  "/arcana2d/creation/female/thumbs/outfit/black.png": {
+    "file": "assets/game/arcana2d-creation-female-thumbs-outfit-black.b82df35bc67891d9.webp",
+    "source": "public/arcana2d/creation/female/thumbs/outfit/black.png",
+    "sourceHash": "72d45464f654a361b2322724f41202b28fbef916b96c8814ac589c90d0f639d8",
+    "inputBytes": 5682,
+    "outputBytes": 2018
+  },
+  "/arcana2d/creation/female/thumbs/outfit/green.png": {
+    "file": "assets/game/arcana2d-creation-female-thumbs-outfit-green.0e819b57cad62b36.webp",
+    "source": "public/arcana2d/creation/female/thumbs/outfit/green.png",
+    "sourceHash": "5c0f48415aad28a27bb26a438f2efaae1d56dab8413bea1eaec17a981efa3eda",
+    "inputBytes": 5468,
+    "outputBytes": 2022
+  },
+  "/arcana2d/creation/female/thumbs/outfit/purple.png": {
+    "file": "assets/game/arcana2d-creation-female-thumbs-outfit-purple.badad0878fe60413.webp",
+    "source": "public/arcana2d/creation/female/thumbs/outfit/purple.png",
+    "sourceHash": "109bb98b74ccd7337818acb74b0495e9d763ffb5dc1adf56dba29ff136729018",
+    "inputBytes": 5544,
+    "outputBytes": 2024
+  },
+  "/arcana2d/creation/female/thumbs/outfit/red.png": {
+    "file": "assets/game/arcana2d-creation-female-thumbs-outfit-red.3922dd4badff1cd3.webp",
+    "source": "public/arcana2d/creation/female/thumbs/outfit/red.png",
+    "sourceHash": "143c54f1976e943edd22ed425d2711f5215fcda2e0a45ab9ae9c16b67fdbbf68",
+    "inputBytes": 5468,
+    "outputBytes": 2022
+  },
+  "/arcana2d/creation/female/thumbs/outfit/yellow.png": {
+    "file": "assets/game/arcana2d-creation-female-thumbs-outfit-yellow.66bcf221df0c1ecf.webp",
+    "source": "public/arcana2d/creation/female/thumbs/outfit/yellow.png",
+    "sourceHash": "e969529758002cc7b0c59a06e227515f150b6360641edafdd559e3c6f16c10b9",
+    "inputBytes": 5853,
+    "outputBytes": 2026
+  },
+  "/arcana2d/creation/female/thumbs/skin/beige.png": {
+    "file": "assets/game/arcana2d-creation-female-thumbs-skin-beige.7ce721a33eeab4e9.webp",
+    "source": "public/arcana2d/creation/female/thumbs/skin/beige.png",
+    "sourceHash": "423542cbadf517ac4bfaf0479ef24b1be065ce447bac4e5cff6e6b130bd0aff4",
+    "inputBytes": 11473,
+    "outputBytes": 3982
+  },
+  "/arcana2d/creation/female/thumbs/skin/bronze.png": {
+    "file": "assets/game/arcana2d-creation-female-thumbs-skin-bronze.47ac738810c53e7b.webp",
+    "source": "public/arcana2d/creation/female/thumbs/skin/bronze.png",
+    "sourceHash": "e750ee4c3e572cd844163dfbeeaf7d344966876d6c32d676c3bfd720a669ce3c",
+    "inputBytes": 10729,
+    "outputBytes": 3968
+  },
+  "/arcana2d/creation/female/thumbs/skin/cream.png": {
+    "file": "assets/game/arcana2d-creation-female-thumbs-skin-cream.7c38a80ef18d9bef.webp",
+    "source": "public/arcana2d/creation/female/thumbs/skin/cream.png",
+    "sourceHash": "50f49f94eb77e91c83c10405562db945dc58ab872c5223acb8b856d15cdd2dcc",
+    "inputBytes": 11981,
+    "outputBytes": 3984
+  },
+  "/arcana2d/creation/female/thumbs/skin/ivory.png": {
+    "file": "assets/game/arcana2d-creation-female-thumbs-skin-ivory.b3089e6fa70761aa.webp",
+    "source": "public/arcana2d/creation/female/thumbs/skin/ivory.png",
+    "sourceHash": "595ef088df4298fc3814dd3ddf249090f6f122fc3870b6bcfd1c8892024bafb5",
+    "inputBytes": 11264,
+    "outputBytes": 3994
+  },
+  "/arcana2d/creation/female/thumbs/skin/lilac.png": {
+    "file": "assets/game/arcana2d-creation-female-thumbs-skin-lilac.44cb4f27eb0eedd4.webp",
+    "source": "public/arcana2d/creation/female/thumbs/skin/lilac.png",
+    "sourceHash": "3ea92a6a4fe5532e61879befb4a8dd7b7428246e4fbdc21b5c57670a91298d84",
+    "inputBytes": 10973,
+    "outputBytes": 3982
+  },
+  "/arcana2d/creation/female/thumbs/skin/milk.png": {
+    "file": "assets/game/arcana2d-creation-female-thumbs-skin-milk.7f1e494be0b00b2d.webp",
+    "source": "public/arcana2d/creation/female/thumbs/skin/milk.png",
+    "sourceHash": "d62eabbe029582dec6a31d8625adef7285a752fd270444feafa6ff512c27ed2b",
+    "inputBytes": 11375,
+    "outputBytes": 3994
+  },
+  "/arcana2d/creation/female/thumbs/skin/natural.png": {
+    "file": "assets/game/arcana2d-creation-female-thumbs-skin-natural.773c0f9d8fb23b1f.webp",
+    "source": "public/arcana2d/creation/female/thumbs/skin/natural.png",
+    "sourceHash": "896c23de4eb6a05b6634028fa2909d9fb3795a21f46f7d4423e6c8e6ee59aed6",
+    "inputBytes": 20351,
+    "outputBytes": 14248
+  },
+  "/arcana2d/creation/female/thumbs/skin/pink.png": {
+    "file": "assets/game/arcana2d-creation-female-thumbs-skin-pink.ff42a159ff1f32c1.webp",
+    "source": "public/arcana2d/creation/female/thumbs/skin/pink.png",
+    "sourceHash": "d34060134ad057270dbcc0ccbaf57e33bdd379b671a30e33293ef9bb062a7ba1",
+    "inputBytes": 12013,
+    "outputBytes": 3982
+  },
+  "/arcana2d/creation/female/thumbs/skin/porcelain.png": {
+    "file": "assets/game/arcana2d-creation-female-thumbs-skin-porcelain.10aea3f3fa39ed1c.webp",
+    "source": "public/arcana2d/creation/female/thumbs/skin/porcelain.png",
+    "sourceHash": "39a602c6f39f2b3d6ec0dcf314273ce4bbb76c648e83c899f9fd990cb3ebb9ec",
+    "inputBytes": 10240,
+    "outputBytes": 3994
+  },
+  "/arcana2d/creation/female/thumbs/skin/rose.png": {
+    "file": "assets/game/arcana2d-creation-female-thumbs-skin-rose.525c31584c169b14.webp",
+    "source": "public/arcana2d/creation/female/thumbs/skin/rose.png",
+    "sourceHash": "9d387102814c7520eb074eea37de0ae1757d6d09f1c488b25d58bb0cce40408b",
+    "inputBytes": 11358,
+    "outputBytes": 3982
+  },
+  "/arcana2d/creation/female/thumbs/skin/slate.png": {
+    "file": "assets/game/arcana2d-creation-female-thumbs-skin-slate.bae339ffc618ab4f.webp",
+    "source": "public/arcana2d/creation/female/thumbs/skin/slate.png",
+    "sourceHash": "f0a0230004c39c16357cb872d5311d7c3fc13a0cc78db1f941f13f3bd0bafce3",
+    "inputBytes": 10791,
+    "outputBytes": 3984
+  },
+  "/arcana2d/creation/female/thumbs/skin/tan.png": {
+    "file": "assets/game/arcana2d-creation-female-thumbs-skin-tan.281076f730ebfe8a.webp",
+    "source": "public/arcana2d/creation/female/thumbs/skin/tan.png",
+    "sourceHash": "4a1a36fa9083c8e0e327aa370ed22b33d338b66ffaba8dd69e189d6e4d47d7e7",
+    "inputBytes": 11402,
+    "outputBytes": 3972
+  },
+  "/arcana2d/creation/forest-stage.png": {
+    "file": "assets/game/arcana2d-creation-forest-stage.fd0c2478abc5060f.webp",
+    "source": "public/arcana2d/creation/forest-stage.png",
+    "sourceHash": "87fe0fecd2c25a452c90b6138db9fd5b02cb615047121165e8f1a0001d75989d",
+    "inputBytes": 2645015,
+    "outputBytes": 2049214
+  },
+  "/arcana2d/creation/male/body.png": {
+    "file": "assets/game/arcana2d-creation-male-body.ae8383d039f619e2.webp",
+    "source": "public/arcana2d/creation/male/body.png",
+    "sourceHash": "2e82844d822c9ddf9c85f8cfbd582330863f2df6ccf7474332ecd559e336a4f4",
+    "inputBytes": 790360,
+    "outputBytes": 529746
+  },
+  "/arcana2d/creation/male/hair/black.png": {
+    "file": "assets/game/arcana2d-creation-male-hair-black.7cccaca2ad90c0bf.webp",
+    "source": "public/arcana2d/creation/male/hair/black.png",
+    "sourceHash": "543569ad0cf7bdf5d4c284a64e1a587581053cd72080471089eb20b6d182f619",
+    "inputBytes": 446844,
+    "outputBytes": 178410
+  },
+  "/arcana2d/creation/male/hair/blonde.png": {
+    "file": "assets/game/arcana2d-creation-male-hair-blonde.54098307f9ccf42a.webp",
+    "source": "public/arcana2d/creation/male/hair/blonde.png",
+    "sourceHash": "0b295b5d159039403a2b2216ae3b6db1fede1f50ccd311dbf73fe7b8aceee361",
+    "inputBytes": 462984,
+    "outputBytes": 179734
+  },
+  "/arcana2d/creation/male/hair/blue.png": {
+    "file": "assets/game/arcana2d-creation-male-hair-blue.52765cbb9d463bc0.webp",
+    "source": "public/arcana2d/creation/male/hair/blue.png",
+    "sourceHash": "1c78955aba671177f8cd38ca04bbcf9e185017e161ba5cf646e03afe48c1f43c",
+    "inputBytes": 459989,
+    "outputBytes": 179644
+  },
+  "/arcana2d/creation/male/hair/brown.png": {
+    "file": "assets/game/arcana2d-creation-male-hair-brown.8ffda0c688fe8b69.webp",
+    "source": "public/arcana2d/creation/male/hair/brown.png",
+    "sourceHash": "9ddc0385926ae8d3eaa2af1e5c94ecaf5d6d0d41959e69524199fafb4feabca1",
+    "inputBytes": 469017,
+    "outputBytes": 180348
+  },
+  "/arcana2d/creation/male/hair/orange.png": {
+    "file": "assets/game/arcana2d-creation-male-hair-orange.f412c27d2def214b.webp",
+    "source": "public/arcana2d/creation/male/hair/orange.png",
+    "sourceHash": "8adac762c22fb33ce38dadec03757168cab76f4e16a9d8efeadff8647a805c21",
+    "inputBytes": 469814,
+    "outputBytes": 181762
+  },
+  "/arcana2d/creation/male/hair/pink.png": {
+    "file": "assets/game/arcana2d-creation-male-hair-pink.7ad43c1f72370fe7.webp",
+    "source": "public/arcana2d/creation/male/hair/pink.png",
+    "sourceHash": "b124c760e9f597139121c75d69e06158bf0b46226763fff9df6df05345155b55",
+    "inputBytes": 487532,
+    "outputBytes": 179924
+  },
+  "/arcana2d/creation/male/hair/purple.png": {
+    "file": "assets/game/arcana2d-creation-male-hair-purple.7a91b5473e035c8e.webp",
+    "source": "public/arcana2d/creation/male/hair/purple.png",
+    "sourceHash": "481f51e1afe9e33569488b12ddd849cfad4be44a9914fa460954b84af1172764",
+    "inputBytes": 471125,
+    "outputBytes": 179564
+  },
+  "/arcana2d/creation/male/hair/red.png": {
+    "file": "assets/game/arcana2d-creation-male-hair-red.c08d6dc705f35610.webp",
+    "source": "public/arcana2d/creation/male/hair/red.png",
+    "sourceHash": "482a208207c12fe0e3b3a3ff49a10adc23624856b7cf18603b0f06772e3533db",
+    "inputBytes": 474252,
+    "outputBytes": 178856
+  },
+  "/arcana2d/creation/male/hair/silver.png": {
+    "file": "assets/game/arcana2d-creation-male-hair-silver.838a1e81456c0d1e.webp",
+    "source": "public/arcana2d/creation/male/hair/silver.png",
+    "sourceHash": "dd7e9f7f24083859efaa84d42aef5588531421e1d6a1ff4b72d48ce7b84c3bf5",
+    "inputBytes": 476086,
+    "outputBytes": 179912
+  },
+  "/arcana2d/creation/male/hair/white.png": {
+    "file": "assets/game/arcana2d-creation-male-hair-white.60b82a321a809f3c.webp",
+    "source": "public/arcana2d/creation/male/hair/white.png",
+    "sourceHash": "a9d8d1fb862bbf4c1872912ad02e370bfaf50e3c79b0c8bb9fe7f8a79e4ddf1d",
+    "inputBytes": 445179,
+    "outputBytes": 167910
+  },
+  "/arcana2d/creation/male/manifest.json": {
+    "file": "assets/game/arcana2d-creation-male-manifest.69cfff1354bfacaf.json",
+    "source": "public/arcana2d/creation/male/manifest.json",
+    "sourceHash": "69cfff1354bfacaf83a9a20acc01e5df9942afe9e26c26d631d64b158965d3eb",
+    "inputBytes": 4613,
+    "outputBytes": 4613
+  },
+  "/arcana2d/creation/male/outfit/black.png": {
+    "file": "assets/game/arcana2d-creation-male-outfit-black.f61e212d8c163ec1.webp",
+    "source": "public/arcana2d/creation/male/outfit/black.png",
+    "sourceHash": "90a139c02c575df1a99f4b05a795d5449b8a2e8bcdae62f812e1061182954156",
+    "inputBytes": 245001,
+    "outputBytes": 82740
+  },
+  "/arcana2d/creation/male/outfit/green.png": {
+    "file": "assets/game/arcana2d-creation-male-outfit-green.c3c0eac86b95ca25.webp",
+    "source": "public/arcana2d/creation/male/outfit/green.png",
+    "sourceHash": "f431f8d83c17d5223b870cd3ffeb055707760d48ee6c5306513b062ff0363048",
+    "inputBytes": 237821,
+    "outputBytes": 83770
+  },
+  "/arcana2d/creation/male/outfit/purple.png": {
+    "file": "assets/game/arcana2d-creation-male-outfit-purple.c8fa00aeb0f29639.webp",
+    "source": "public/arcana2d/creation/male/outfit/purple.png",
+    "sourceHash": "c32f99d0b22008f54656819868fe1a1e4975812b5eea958c0884471f4639022a",
+    "inputBytes": 240597,
+    "outputBytes": 83698
+  },
+  "/arcana2d/creation/male/outfit/red.png": {
+    "file": "assets/game/arcana2d-creation-male-outfit-red.fb4b0b8636c2f3c5.webp",
+    "source": "public/arcana2d/creation/male/outfit/red.png",
+    "sourceHash": "80c69ca1d2e17f2b50caa4e2e847706186ffaa0aaa7c68957cff0e1604b1e33d",
+    "inputBytes": 237588,
+    "outputBytes": 83352
+  },
+  "/arcana2d/creation/male/outfit/yellow.png": {
+    "file": "assets/game/arcana2d-creation-male-outfit-yellow.24b7978e53af2190.webp",
+    "source": "public/arcana2d/creation/male/outfit/yellow.png",
+    "sourceHash": "c244b75cac08d5f9a5d371f4378de43276631cc713168e6c2d0e26b444af498a",
+    "inputBytes": 255729,
+    "outputBytes": 84044
+  },
+  "/arcana2d/creation/male/skin/beige.png": {
+    "file": "assets/game/arcana2d-creation-male-skin-beige.175b6dbc5df8b42b.webp",
+    "source": "public/arcana2d/creation/male/skin/beige.png",
+    "sourceHash": "662ad0dde7fbedf9a12a70141a500e780eaeea83d651cfbad1b65d8ebc3a896c",
+    "inputBytes": 286947,
+    "outputBytes": 99982
+  },
+  "/arcana2d/creation/male/skin/bronze.png": {
+    "file": "assets/game/arcana2d-creation-male-skin-bronze.18bd8ddaa730f21c.webp",
+    "source": "public/arcana2d/creation/male/skin/bronze.png",
+    "sourceHash": "dc356d86f66a0179694eb295eaff4ba32500a49ff4515329c5b70e5ba2c59a36",
+    "inputBytes": 280512,
+    "outputBytes": 100690
+  },
+  "/arcana2d/creation/male/skin/cream.png": {
+    "file": "assets/game/arcana2d-creation-male-skin-cream.6c8063313518ec91.webp",
+    "source": "public/arcana2d/creation/male/skin/cream.png",
+    "sourceHash": "72d0d0d8f58d8d8aef0e9dfe35b31f3c87e4164e98b9b1f33e814c4f6931b386",
+    "inputBytes": 295687,
+    "outputBytes": 100200
+  },
+  "/arcana2d/creation/male/skin/ivory.png": {
+    "file": "assets/game/arcana2d-creation-male-skin-ivory.b172e951499c00cc.webp",
+    "source": "public/arcana2d/creation/male/skin/ivory.png",
+    "sourceHash": "01fc6fa2fbc0cca82650ef2b36b7084dfeebbf275a538cf4afeb6b15078808d8",
+    "inputBytes": 269279,
+    "outputBytes": 96816
+  },
+  "/arcana2d/creation/male/skin/lilac.png": {
+    "file": "assets/game/arcana2d-creation-male-skin-lilac.15b70ef95b3fb471.webp",
+    "source": "public/arcana2d/creation/male/skin/lilac.png",
+    "sourceHash": "17aca3bf70ed3ad5f1b0cb22e7f54147a0b2b0a0a2715e7e695d0534cc015b1c",
+    "inputBytes": 278991,
+    "outputBytes": 97660
+  },
+  "/arcana2d/creation/male/skin/milk.png": {
+    "file": "assets/game/arcana2d-creation-male-skin-milk.d172f1fbd69d9f96.webp",
+    "source": "public/arcana2d/creation/male/skin/milk.png",
+    "sourceHash": "24c52258fe788816318c774b8e5f7d48e9ef21b44456dd3743c8bdcf77002d85",
+    "inputBytes": 278501,
+    "outputBytes": 96162
+  },
+  "/arcana2d/creation/male/skin/natural.png": {
+    "file": "assets/game/arcana2d-creation-male-skin-natural.7756b5b82dd51b39.webp",
+    "source": "public/arcana2d/creation/male/skin/natural.png",
+    "sourceHash": "c3c1535f477ff17931b1323ec12d7a6466aede44f6acea34eadb982c33d3786a",
+    "inputBytes": 541881,
+    "outputBytes": 365506
+  },
+  "/arcana2d/creation/male/skin/pink.png": {
+    "file": "assets/game/arcana2d-creation-male-skin-pink.67b254e04b53ee2e.webp",
+    "source": "public/arcana2d/creation/male/skin/pink.png",
+    "sourceHash": "c03bbad8719c4dec2ce68afc90964c1a57e179713e488f629ca4047947f0023c",
+    "inputBytes": 295861,
+    "outputBytes": 100340
+  },
+  "/arcana2d/creation/male/skin/porcelain.png": {
+    "file": "assets/game/arcana2d-creation-male-skin-porcelain.94c205da7090b045.webp",
+    "source": "public/arcana2d/creation/male/skin/porcelain.png",
+    "sourceHash": "65384a2eebd073573bb2af7b201aec9feed89fe88e9668c2660ae38f7b85b8f0",
+    "inputBytes": 259115,
+    "outputBytes": 94436
+  },
+  "/arcana2d/creation/male/skin/rose.png": {
+    "file": "assets/game/arcana2d-creation-male-skin-rose.c62c8ede9eb9c83f.webp",
+    "source": "public/arcana2d/creation/male/skin/rose.png",
+    "sourceHash": "5345fded0cc09b9647ae7ca7fca592519211c61d0a7280b00438f29000e7fbf4",
+    "inputBytes": 283973,
+    "outputBytes": 98010
+  },
+  "/arcana2d/creation/male/skin/slate.png": {
+    "file": "assets/game/arcana2d-creation-male-skin-slate.30b26bb40b389581.webp",
+    "source": "public/arcana2d/creation/male/skin/slate.png",
+    "sourceHash": "d2f579605407beacc410e55da883846d69b872d47e19fd732cc3cb4f3fbe3beb",
+    "inputBytes": 274600,
+    "outputBytes": 97746
+  },
+  "/arcana2d/creation/male/skin/tan.png": {
+    "file": "assets/game/arcana2d-creation-male-skin-tan.43fad85f35269b6d.webp",
+    "source": "public/arcana2d/creation/male/skin/tan.png",
+    "sourceHash": "e157db1e15d1823c4c659291a29ca4f01e9e899ad85df74453a712b2c6305051",
+    "inputBytes": 289452,
+    "outputBytes": 100354
+  },
+  "/arcana2d/creation/male/thumbs/body.png": {
+    "file": "assets/game/arcana2d-creation-male-thumbs-body.a631f0bbaf76c784.webp",
+    "source": "public/arcana2d/creation/male/thumbs/body.png",
+    "sourceHash": "0ac7916b47cf55ad84260d6aa1fa41e5800b8f431fc9244c4aa02fe512434beb",
+    "inputBytes": 16913,
+    "outputBytes": 12214
+  },
+  "/arcana2d/creation/male/thumbs/hair/black.png": {
+    "file": "assets/game/arcana2d-creation-male-thumbs-hair-black.85f2e79fd687bca6.webp",
+    "source": "public/arcana2d/creation/male/thumbs/hair/black.png",
+    "sourceHash": "5d6519504a0cbc0f8442491643aeee478dbd8fd63f7886d5e8d32e37e4965101",
+    "inputBytes": 10324,
+    "outputBytes": 3966
+  },
+  "/arcana2d/creation/male/thumbs/hair/blonde.png": {
+    "file": "assets/game/arcana2d-creation-male-thumbs-hair-blonde.51f42797e821bd1c.webp",
+    "source": "public/arcana2d/creation/male/thumbs/hair/blonde.png",
+    "sourceHash": "0ca7a1e28367be5c8e8810f8819baaec5e5e69dadbe91bc624c3fc415e6b24b4",
+    "inputBytes": 10876,
+    "outputBytes": 4042
+  },
+  "/arcana2d/creation/male/thumbs/hair/blue.png": {
+    "file": "assets/game/arcana2d-creation-male-thumbs-hair-blue.7c9df9a5d07647c7.webp",
+    "source": "public/arcana2d/creation/male/thumbs/hair/blue.png",
+    "sourceHash": "9550b1ed1f74a51fe50a6750e16ce998ca42120243923ed8d9ea933b144fc804",
+    "inputBytes": 10746,
+    "outputBytes": 4066
+  },
+  "/arcana2d/creation/male/thumbs/hair/brown.png": {
+    "file": "assets/game/arcana2d-creation-male-thumbs-hair-brown.8a934f0b4866eae4.webp",
+    "source": "public/arcana2d/creation/male/thumbs/hair/brown.png",
+    "sourceHash": "30ef0a4e68880b3c068d526bfe71af85d15551267cabb3f89a0ee4bb70f0030f",
+    "inputBytes": 11220,
+    "outputBytes": 4080
+  },
+  "/arcana2d/creation/male/thumbs/hair/orange.png": {
+    "file": "assets/game/arcana2d-creation-male-thumbs-hair-orange.8a9e7896a9124e7a.webp",
+    "source": "public/arcana2d/creation/male/thumbs/hair/orange.png",
+    "sourceHash": "7ae3bd459de99db2b6ea8a329c33e96b2930b3f8839e67fb1ccf5c3b80147c94",
+    "inputBytes": 10889,
+    "outputBytes": 4134
+  },
+  "/arcana2d/creation/male/thumbs/hair/pink.png": {
+    "file": "assets/game/arcana2d-creation-male-thumbs-hair-pink.2ef6e25f33dc8ebd.webp",
+    "source": "public/arcana2d/creation/male/thumbs/hair/pink.png",
+    "sourceHash": "d48c32fa574ca55dd85a04284b3338e6ceb5a897b21395e7c64d0b736c6b03fe",
+    "inputBytes": 11426,
+    "outputBytes": 4070
+  },
+  "/arcana2d/creation/male/thumbs/hair/purple.png": {
+    "file": "assets/game/arcana2d-creation-male-thumbs-hair-purple.e94d3e0a9f20401e.webp",
+    "source": "public/arcana2d/creation/male/thumbs/hair/purple.png",
+    "sourceHash": "914445edf5a18c72160c538236f5a66cbfbf1c06528fe399b9f570d718925a5c",
+    "inputBytes": 11190,
+    "outputBytes": 4078
+  },
+  "/arcana2d/creation/male/thumbs/hair/red.png": {
+    "file": "assets/game/arcana2d-creation-male-thumbs-hair-red.dd47fa4f33b0d8f6.webp",
+    "source": "public/arcana2d/creation/male/thumbs/hair/red.png",
+    "sourceHash": "c2062c9a1529ba357101206e993854e2ba7bc7647d0142d76ceba52ba3029ca1",
+    "inputBytes": 11117,
+    "outputBytes": 4012
+  },
+  "/arcana2d/creation/male/thumbs/hair/silver.png": {
+    "file": "assets/game/arcana2d-creation-male-thumbs-hair-silver.be61fa436e7f7661.webp",
+    "source": "public/arcana2d/creation/male/thumbs/hair/silver.png",
+    "sourceHash": "766daa76ece1c75f00a85ed50ee9124a50e72af799247fbd5a2c2242c7ffa89f",
+    "inputBytes": 11185,
+    "outputBytes": 4010
+  },
+  "/arcana2d/creation/male/thumbs/hair/white.png": {
+    "file": "assets/game/arcana2d-creation-male-thumbs-hair-white.21f27ef62f25b0a8.webp",
+    "source": "public/arcana2d/creation/male/thumbs/hair/white.png",
+    "sourceHash": "f1147cc04bd5101270c2215b578405bc0fd103785bd0d6311e8186e1a92f23c0",
+    "inputBytes": 10003,
+    "outputBytes": 3786
+  },
+  "/arcana2d/creation/male/thumbs/outfit/black.png": {
+    "file": "assets/game/arcana2d-creation-male-thumbs-outfit-black.910eac14d7de6ba8.webp",
+    "source": "public/arcana2d/creation/male/thumbs/outfit/black.png",
+    "sourceHash": "02c6c06304b68d97ddd871eccb64e85d519a68e7070572c9b8d584fbc9573dfd",
+    "inputBytes": 7658,
+    "outputBytes": 2524
+  },
+  "/arcana2d/creation/male/thumbs/outfit/green.png": {
+    "file": "assets/game/arcana2d-creation-male-thumbs-outfit-green.47bdb7d55e1e3c2c.webp",
+    "source": "public/arcana2d/creation/male/thumbs/outfit/green.png",
+    "sourceHash": "4623d709f6dee2b0db2f25c86eb843a9402e43c7d63447336d0efc65619f3e08",
+    "inputBytes": 7675,
+    "outputBytes": 2528
+  },
+  "/arcana2d/creation/male/thumbs/outfit/purple.png": {
+    "file": "assets/game/arcana2d-creation-male-thumbs-outfit-purple.c5905ce32571bc51.webp",
+    "source": "public/arcana2d/creation/male/thumbs/outfit/purple.png",
+    "sourceHash": "24961b63e6c6e04e982412e3f4fd0d843ac30df155901ffbef9a53f812c7b107",
+    "inputBytes": 7936,
+    "outputBytes": 2530
+  },
+  "/arcana2d/creation/male/thumbs/outfit/red.png": {
+    "file": "assets/game/arcana2d-creation-male-thumbs-outfit-red.137046af4bac1424.webp",
+    "source": "public/arcana2d/creation/male/thumbs/outfit/red.png",
+    "sourceHash": "e6bf69f1ce64a7c0f308218c1fd4744ee2eb375e85ac0967e5b591733f4bfd77",
+    "inputBytes": 7739,
+    "outputBytes": 2528
+  },
+  "/arcana2d/creation/male/thumbs/outfit/yellow.png": {
+    "file": "assets/game/arcana2d-creation-male-thumbs-outfit-yellow.51b6f187ae1a9583.webp",
+    "source": "public/arcana2d/creation/male/thumbs/outfit/yellow.png",
+    "sourceHash": "3c3149fd62200f6247edc124dbf8382e47b5fc4633c10a5ed523326775f1d714",
+    "inputBytes": 8235,
+    "outputBytes": 2532
+  },
+  "/arcana2d/creation/male/thumbs/skin/beige.png": {
+    "file": "assets/game/arcana2d-creation-male-thumbs-skin-beige.3e51992d574f1a70.webp",
+    "source": "public/arcana2d/creation/male/thumbs/skin/beige.png",
+    "sourceHash": "251e433149078e25b5549052a2d307c32629b0722b80942823e9ff098e5c5672",
+    "inputBytes": 9139,
+    "outputBytes": 3216
+  },
+  "/arcana2d/creation/male/thumbs/skin/bronze.png": {
+    "file": "assets/game/arcana2d-creation-male-thumbs-skin-bronze.50efc17dea72da24.webp",
+    "source": "public/arcana2d/creation/male/thumbs/skin/bronze.png",
+    "sourceHash": "4328437c1fe3710dc42eddc51c738abe0c62c88fb043c094290865e55dab5218",
+    "inputBytes": 8824,
+    "outputBytes": 3318
+  },
+  "/arcana2d/creation/male/thumbs/skin/cream.png": {
+    "file": "assets/game/arcana2d-creation-male-thumbs-skin-cream.f6e2ef3896ab8ee2.webp",
+    "source": "public/arcana2d/creation/male/thumbs/skin/cream.png",
+    "sourceHash": "148c94d86ec92fd16c8cc34622df663c43156ef9fd292829d73ed0b715d7ce51",
+    "inputBytes": 9330,
+    "outputBytes": 3232
+  },
+  "/arcana2d/creation/male/thumbs/skin/ivory.png": {
+    "file": "assets/game/arcana2d-creation-male-thumbs-skin-ivory.3f2d37bdca9af2d8.webp",
+    "source": "public/arcana2d/creation/male/thumbs/skin/ivory.png",
+    "sourceHash": "0b5623631153f763d1eaff237a65a14eb47c59bc04d409e56a8e56fa1c64f32a",
+    "inputBytes": 8751,
+    "outputBytes": 3078
+  },
+  "/arcana2d/creation/male/thumbs/skin/lilac.png": {
+    "file": "assets/game/arcana2d-creation-male-thumbs-skin-lilac.3da7ca5f67aa673c.webp",
+    "source": "public/arcana2d/creation/male/thumbs/skin/lilac.png",
+    "sourceHash": "0219b83f6a955dd498a49c7b9f0b4ed71593314ade67d353f4d71a37edaf608e",
+    "inputBytes": 8909,
+    "outputBytes": 3074
+  },
+  "/arcana2d/creation/male/thumbs/skin/milk.png": {
+    "file": "assets/game/arcana2d-creation-male-thumbs-skin-milk.85aaae3b79f8f2f0.webp",
+    "source": "public/arcana2d/creation/male/thumbs/skin/milk.png",
+    "sourceHash": "3a2fa6b29592f52bbbcb71216d076363847b3bff7c74ad2ab69f640de5fcfb21",
+    "inputBytes": 8985,
+    "outputBytes": 3066
+  },
+  "/arcana2d/creation/male/thumbs/skin/natural.png": {
+    "file": "assets/game/arcana2d-creation-male-thumbs-skin-natural.a273c43c3c8c6495.webp",
+    "source": "public/arcana2d/creation/male/thumbs/skin/natural.png",
+    "sourceHash": "18b9c3acc03ceb38a3d1083898f254a874d5273473d16fd99a32a3cd14cacf0f",
+    "inputBytes": 14491,
+    "outputBytes": 10146
+  },
+  "/arcana2d/creation/male/thumbs/skin/pink.png": {
+    "file": "assets/game/arcana2d-creation-male-thumbs-skin-pink.7cbc816466900f39.webp",
+    "source": "public/arcana2d/creation/male/thumbs/skin/pink.png",
+    "sourceHash": "cf7e7107dffc752a453f00765adbf41ba8174f7e69107b8558bb471ac44661cd",
+    "inputBytes": 9357,
+    "outputBytes": 3246
+  },
+  "/arcana2d/creation/male/thumbs/skin/porcelain.png": {
+    "file": "assets/game/arcana2d-creation-male-thumbs-skin-porcelain.a4d9c5aefbb77a4e.webp",
+    "source": "public/arcana2d/creation/male/thumbs/skin/porcelain.png",
+    "sourceHash": "d67552238ad10f4bf54603cb73e391a12f4e018ddd839e44dcb2702e748a16bf",
+    "inputBytes": 8437,
+    "outputBytes": 2954
+  },
+  "/arcana2d/creation/male/thumbs/skin/rose.png": {
+    "file": "assets/game/arcana2d-creation-male-thumbs-skin-rose.5f00bc624d7ca30c.webp",
+    "source": "public/arcana2d/creation/male/thumbs/skin/rose.png",
+    "sourceHash": "e56118acb72991ee4994f642e87058ecabc5f0d74215b9fe7ae4ed89920efc42",
+    "inputBytes": 9073,
+    "outputBytes": 3106
+  },
+  "/arcana2d/creation/male/thumbs/skin/slate.png": {
+    "file": "assets/game/arcana2d-creation-male-thumbs-skin-slate.c8dccdc327b67270.webp",
+    "source": "public/arcana2d/creation/male/thumbs/skin/slate.png",
+    "sourceHash": "04ef1102b4d12465e18f80fb2d392bd1ff08854be49dbfd181d5406844802f38",
+    "inputBytes": 8914,
+    "outputBytes": 3082
+  },
+  "/arcana2d/creation/male/thumbs/skin/tan.png": {
+    "file": "assets/game/arcana2d-creation-male-thumbs-skin-tan.d5187b0e9597c6d3.webp",
+    "source": "public/arcana2d/creation/male/thumbs/skin/tan.png",
+    "sourceHash": "c88bcdeed9756f9308ff774f76f7a47b6c491c99aee862bec33e28feb4bfc418",
+    "inputBytes": 9285,
+    "outputBytes": 3274
+  },
+  "/arcana2d/herbalist.png": {
+    "file": "assets/game/arcana2d-herbalist.c5fca22ae0ab5201.webp",
+    "source": "public/arcana2d/herbalist.png",
+    "sourceHash": "f33e7d8dc66a98f3961834eb2113e3308c44a850b96db3407d370832b3a406bd",
+    "inputBytes": 131129,
+    "outputBytes": 90218
+  },
+  "/arcana2d/hero-atlas.png": {
+    "file": "assets/game/arcana2d-hero-atlas.20b9fb53d811e40d.webp",
+    "source": "public/arcana2d/hero-atlas.png",
+    "sourceHash": "2c1b86f8af8dc6a12f1c0921a94380d06597ce57bef662b3692dcc16927159c1",
+    "inputBytes": 2460967,
+    "outputBytes": 1813212
+  },
+  "/arcana2d/hero-base.png": {
+    "file": "assets/game/arcana2d-hero-base.9c3d5c43fd29d73d.webp",
+    "source": "public/arcana2d/hero-base.png",
+    "sourceHash": "72523ff3b6cc1a3c01b3da5e1736b484e5b5c62b5ac0ff48088667fe9d1da79c",
+    "inputBytes": 1268411,
+    "outputBytes": 815684
+  },
+  "/arcana2d/hero-manifest.json": {
+    "file": "assets/game/arcana2d-hero-manifest.d6baae5e4ffa7753.json",
+    "source": "public/arcana2d/hero-manifest.json",
+    "sourceHash": "d6baae5e4ffa7753572d3d6a4adb613e7b8baa425ce34201fb4b43916c1d7138",
+    "inputBytes": 9285,
+    "outputBytes": 9285
+  },
+  "/arcana2d/librarian.png": {
+    "file": "assets/game/arcana2d-librarian.3b745c4a99d1cd41.webp",
+    "source": "public/arcana2d/librarian.png",
+    "sourceHash": "58262dd796c18df072319c91924d8bbe5059e81f7c4fb072031fbe395bd99de6",
+    "inputBytes": 124792,
+    "outputBytes": 84844
+  },
+  "/arcana2d/mentor.png": {
+    "file": "assets/game/arcana2d-mentor.72cecd12350d5681.webp",
+    "source": "public/arcana2d/mentor.png",
+    "sourceHash": "96641489c12f5c11957bbe0c500abb611b60e75dde67591579a132c1db77fd09",
+    "inputBytes": 124577,
+    "outputBytes": 83710
+  },
+  "/arcana2d/monsters/jelly-attack.png": {
+    "file": "assets/game/arcana2d-monsters-jelly-attack.2589fcf40e2d2e28.webp",
+    "source": "public/arcana2d/monsters/jelly-attack.png",
+    "sourceHash": "6b141cab257b32e6ae357e5ae96b398854c615097b9ff62b45b608729fe81877",
+    "inputBytes": 57505,
+    "outputBytes": 41122
+  },
+  "/arcana2d/monsters/jelly-idle.png": {
+    "file": "assets/game/arcana2d-monsters-jelly-idle.6a6a63455169e954.webp",
+    "source": "public/arcana2d/monsters/jelly-idle.png",
+    "sourceHash": "119014eca6565bd1ee7a547664a7d207766d90d14718cfb35de0458cdc6f085e",
+    "inputBytes": 57443,
+    "outputBytes": 41430
+  },
+  "/arcana2d/monsters/jelly-ready.png": {
+    "file": "assets/game/arcana2d-monsters-jelly-ready.740311508dfb4b17.webp",
+    "source": "public/arcana2d/monsters/jelly-ready.png",
+    "sourceHash": "8f06cb51961ea43c205d7750797298adb26377da096b49d19fb9e84fff1f8801",
+    "inputBytes": 57607,
+    "outputBytes": 41446
+  },
+  "/arcana2d/monsters/mushroom-attack.png": {
+    "file": "assets/game/arcana2d-monsters-mushroom-attack.08dfbf23a72141b0.webp",
+    "source": "public/arcana2d/monsters/mushroom-attack.png",
+    "sourceHash": "e007e949c77b36f470e23519ea753b892fac83a94ce55493daba5f63fec57140",
+    "inputBytes": 62550,
+    "outputBytes": 43004
+  },
+  "/arcana2d/monsters/mushroom-idle.png": {
+    "file": "assets/game/arcana2d-monsters-mushroom-idle.108635ce7bc9954c.webp",
+    "source": "public/arcana2d/monsters/mushroom-idle.png",
+    "sourceHash": "fd50e7fcba6ec5807c90e19bdceaf2a59971ee1997c4cb5f0b960c55589ac989",
+    "inputBytes": 59212,
+    "outputBytes": 40230
+  },
+  "/arcana2d/monsters/mushroom-ready.png": {
+    "file": "assets/game/arcana2d-monsters-mushroom-ready.372a1e7ecc1b5c61.webp",
+    "source": "public/arcana2d/monsters/mushroom-ready.png",
+    "sourceHash": "635857885413d239121d70da67f1b22023e75f34e82f4cc0337ab26c4bb91952",
+    "inputBytes": 55781,
+    "outputBytes": 38062
+  },
+  "/arcana2d/monsters/stump-attack.png": {
+    "file": "assets/game/arcana2d-monsters-stump-attack.2bbff3443e26a5b5.webp",
+    "source": "public/arcana2d/monsters/stump-attack.png",
+    "sourceHash": "be459efa215546d706127a653b921056b214d3ae9303f60320aeaf06e2cad979",
+    "inputBytes": 71195,
+    "outputBytes": 49706
+  },
+  "/arcana2d/monsters/stump-idle.png": {
+    "file": "assets/game/arcana2d-monsters-stump-idle.2578ba4fb51b8b1c.webp",
+    "source": "public/arcana2d/monsters/stump-idle.png",
+    "sourceHash": "c9f218ecc1bf5014b1c3ed393e4f4ee88d993a929f7493891a6f2e20a59c1327",
+    "inputBytes": 78357,
+    "outputBytes": 54894
+  },
+  "/arcana2d/monsters/stump-ready.png": {
+    "file": "assets/game/arcana2d-monsters-stump-ready.253e8fce979eac9d.webp",
+    "source": "public/arcana2d/monsters/stump-ready.png",
+    "sourceHash": "3517f40deaf91f018d19a56e24a590caa28282aa281471f191e5b51bd6d3eff0",
+    "inputBytes": 74293,
+    "outputBytes": 51536
+  },
+  "/arcana2d/portraits/herbalist.png": {
+    "file": "assets/game/arcana2d-portraits-herbalist.abe8b41fdfba90ff.webp",
+    "source": "public/arcana2d/portraits/herbalist.png",
+    "sourceHash": "322370b174e49648764df96b921dc7d1b6f3ceb4970bcfc346856a5dd38e3ed9",
+    "inputBytes": 2362630,
+    "outputBytes": 1613402
+  },
+  "/arcana2d/portraits/librarian.png": {
+    "file": "assets/game/arcana2d-portraits-librarian.d7c17ec7e83d6218.webp",
+    "source": "public/arcana2d/portraits/librarian.png",
+    "sourceHash": "d4eca1fd8f8056f0c2883c73566d3825e7c5c7faa83a915e669f886cea2c97f9",
+    "inputBytes": 2565273,
+    "outputBytes": 1744488
+  },
+  "/arcana2d/portraits/mentor.png": {
+    "file": "assets/game/arcana2d-portraits-mentor.5411f42e684a05b8.webp",
+    "source": "public/arcana2d/portraits/mentor.png",
+    "sourceHash": "422b3b510cbd27e6968bf5142ed9227b88f1e324d2136481808064c9f1329286",
+    "inputBytes": 2469349,
+    "outputBytes": 1670630
+  },
+  "/arcana2d/portraits/shop.png": {
+    "file": "assets/game/arcana2d-portraits-shop.ec265768dbfa8fdf.webp",
+    "source": "public/arcana2d/portraits/shop.png",
+    "sourceHash": "49e633973f9396f0f84a21baf55ec32f9f199475e241e5f628983fe6d161aea5",
+    "inputBytes": 2439675,
+    "outputBytes": 1609352
+  },
+  "/arcana2d/shop.png": {
+    "file": "assets/game/arcana2d-shop.3868ebe83d262d66.webp",
+    "source": "public/arcana2d/shop.png",
+    "sourceHash": "e81946fa5038289b1f602bd61fa8c688c9df4963b21ad6594edc061190017c01",
+    "inputBytes": 135008,
+    "outputBytes": 90196
+  }
+}

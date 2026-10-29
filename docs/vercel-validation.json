@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-29",
+  "target": "Vercel Vite static build; not deployed",
+  "measurement": {
+    "scope": "Same-origin encoded resource body bytes, fresh Chrome page, character creator ready plus 2 seconds; local production preview. Excludes external fonts and HTTP headers; not LCP.",
+    "before": {
+      "bytes": 46057904,
+      "requests": 86
+    },
+    "after": {
+      "bytes": 3701306,
+      "requests": 65
+    },
+    "reductionPercent": 91.96
+  },
+  "productionOutputBytes": 24206490,
+  "losslessImagesVerified": 138,
+  "checks": {
+    "rules": true,
+    "monsterAI": true,
+    "productionBuild": true,
+    "offlineBuild": true,
+    "creatorMobileAndOffline": true,
+    "fullStoryAndSaveReload": true,
+    "lazyLoadingCacheLimitAndRetry": true,
+    "initialFullResolutionLayers": 4,
+    "fullResolutionCacheLimit": 8,
+    "unexpectedRuntimeErrors": [],
+    "npmAuditProductionVulnerabilities": 0
+  }
+}
